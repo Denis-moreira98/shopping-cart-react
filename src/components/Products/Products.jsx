@@ -9,13 +9,15 @@ function Products() {
    useEffect(() => {
       fetchProducts("iphone").then((response) => {
          setProducts(response);
-         console.log(products);
+         //console.log(response);
       });
    }, []);
 
    return (
       <section className="products container">
-         <ProductCart />
+         {products.map((product) => (
+            <ProductCart key={product.id} data={product} />
+         ))}
       </section>
    );
 }
