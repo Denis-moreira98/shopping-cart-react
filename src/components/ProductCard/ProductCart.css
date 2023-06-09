@@ -34,17 +34,19 @@ card-image {
 .button__add-cart {
    position: absolute;
    top: 0;
-   right: 45px;
+   right: 0;
    width: 45px;
+   height: 45px;
    margin: 12px 15px;
    color: #0c5dd6;
    display: none;
    align-items: center;
    justify-content: center;
+   border: none;
    border-radius: 50px;
-   background-color: rgba(255, 255, 255, 0.5);
+   background-color: rgba(255, 255, 255, 0.8);
+   font-size: 1.5rem;
    cursor: pointer;
-   font-size: 20px;
 }
 
 .product-card:hover {
