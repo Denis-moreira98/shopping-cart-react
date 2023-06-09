@@ -4,6 +4,7 @@ import { propTypes } from "prop-types";
 
 function Provider({ children }) {
    const [products, setProducts] = useState([]);
+   const [cartItems, setCartItems] = useState([]);
    const [loading, setLoading] = useState(true);
 
    const value = {
@@ -11,6 +12,8 @@ function Provider({ children }) {
       setProducts,
       loading,
       setLoading,
+      cartItems,
+      setCartItems,
    };
 
    return <AppContext.Provider value={value}>{children}</AppContext.Provider>;
