@@ -16,6 +16,8 @@ Este é um projeto de carrinho de compras desenvolvido com React JS. Ele permite
 - CSS3: linguagem de estilo para estilizar a interface do usuário.
 - API do Mercado Livre: utilizada para obter dados de produtos.
 
+ ### Confira o [deploy](https://shopping-cart-react-orcin.vercel.app/).
+
 ![Captura de Tela (133)](https://github.com/Denis-moreira98/shopping-cart-react/assets/72985107/c27a7252-1967-4ac2-a9ec-fe5192a96365)
 
 ![Captura de Tela (135)](https://github.com/Denis-moreira98/shopping-cart-react/assets/72985107/47f60d36-0a02-4a20-a774-7b8a8f427f88)
