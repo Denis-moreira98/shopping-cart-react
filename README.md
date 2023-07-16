@@ -18,6 +18,21 @@ Este é um projeto de carrinho de compras desenvolvido com React JS. Ele permite
 
  ### Confira o [deploy](https://shopping-cart-react-orcin.vercel.app/).
 
+ ## Para Rodar localmente na sua máquina:
+
+Instale as dependências
+
+```bash
+  npm install
+```
+
+Inicie o servidor da Aplicação
+
+```bash
+  npm run start
+```
+
+
 ![Captura de Tela (133)](https://github.com/Denis-moreira98/shopping-cart-react/assets/72985107/c27a7252-1967-4ac2-a9ec-fe5192a96365)
 
 ![Captura de Tela (135)](https://github.com/Denis-moreira98/shopping-cart-react/assets/72985107/47f60d36-0a02-4a20-a774-7b8a8f427f88)
